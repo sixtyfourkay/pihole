@@ -1,6 +1,11 @@
 # New Domains that have not yet reached mainstream blocklists
 # ABP format to allow for domain wildcard blocks
 
+# Add these regex deny domain filters to address many of the domains in many of the ad networks below
+# ad containers may still load but the content should be blocked
+# ^[0-9]\.stg\.
+# ^stg\.
+
 ||placelocal.com^
 ||yyjvimo.com^
 ||bestcontentproject.top^
